@@ -2,7 +2,7 @@
 @import "../../styles/mixins";
 
 header {
-  @include background-color($heading-color);
+  @include background-color($secondary-color);
   @include padding($container-padding-desktop);
   @include box-sizing(border-box);
   @include width(100%);
@@ -73,7 +73,7 @@ nav.menu-desktop {
             margin: 0;
             list-style-type: none;
             a {
-              @include color($heading-color);
+              @include color($secondary-color);
               @include padding(10px);
               @include display(block);
               transition: background-color 0.3s;

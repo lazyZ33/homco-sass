@@ -1,3 +1,4 @@
+@import 'variables';
 // Font Utility Classes
 
 .poppins-thin {
@@ -111,4 +112,16 @@
 // Global Ulitity Classes
 .ta-center{
     text-align:center;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.white{
+  color: $white-color;
+}
+.my-30{
+  margin: 30px 0px;
+}
+.p-20{
+  padding: 20px;
 }

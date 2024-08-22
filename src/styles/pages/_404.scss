@@ -1,20 +1,26 @@
 section.error-404 {
-    position: relative;
-  
-    img {
-      @include width(100%);
-    }
-  
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      @include height(100%);
-      @include width(100%);
-      @include background-color(#000);
-      opacity: 0.7;
-      z-index: 999;
-    }
+  position: relative;
+  @include flex(center, center);
+  @include height(100vh);
+
+  img {
+    @include height(100%);
+    @include width(100%);
+    object-fit: cover;
   }
-  
+
+  .overlay {
+    position: absolute;
+    @include height(100%);
+    @include width(100%);
+    @include background-color(rgba(0, 0, 0, 0.7));
+  }
+
+  .content {
+    position: absolute;
+  }
+
+  .btn-primary {
+    display: inline-block;
+  }
+}
