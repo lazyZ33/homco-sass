@@ -1,0 +1,61 @@
+// Font Sizes for Desktop
+$h1-size-desktop: 60px;
+$h2-size-desktop: 45px;
+$h3-size-desktop: 35px;
+$h4-size-desktop: 25px;
+$h5-size-desktop: 20px;
+$h6-size-desktop: 17px;
+$btn-size-desktop: 15px;
+$para-size-desktop: 17px;
+$icon-lg-size-desktop: 45px;
+$icon-list-size-desktop: 20px;
+$error-text-size-desktop: 100px;
+
+// Font Sizes for Tablet
+$h1-size-tablet: 48px;
+$h2-size-tablet: 36px;
+$h3-size-tablet: 28px;
+$h4-size-tablet: 22px;
+$h5-size-tablet: 18px;
+$h6-size-tablet: 16px;
+$btn-size-tablet: 14px;
+$para-size-tablet: 16px;
+$icon-lg-size-tablet: 36px;
+$icon-list-size-tablet: 18px;
+$error-text-size-tablet: 80px;
+
+// Font Sizes for Mobile
+$h1-size-mobile: 36px;
+$h2-size-mobile: 28px;
+$h3-size-mobile: 22px;
+$h4-size-mobile: 18px;
+$h5-size-mobile: 16px;
+$h6-size-mobile: 14px;
+$btn-size-mobile: 13px;
+$para-size-mobile: 15px;
+$icon-lg-size-mobile: 30px;
+$icon-list-size-mobile: 16px;
+$error-text-size-mobile: 60px;
+
+//Colors
+
+$primary-color: #CE1212;
+$secondary-color: #1B1717;
+$heading-color: #1B1717;
+$paragraph-color: #6E6E6E;
+$border-color: #DADADA;
+$white-color: #FFF;
+$border-overlay-color: rgba(255, 255, 255, 0.25);
+$white-smoke-color: #F3F3F3;
+$rating-color: #FD5B00;
+
+//Container
+
+$container-max-width: 1440px;
+$container-margin: 0 auto;
+
+// Paddings
+$container-padding-desktop: 0px 50px;
+$container-padding-tablet: 20px 30px;
+$container-padding-mobile: 20px 20px;
+$header-links-padding: 50px 17px;

@@ -1,0 +1,114 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+header {
+  @include background-color($heading-color);
+  @include padding($container-padding-desktop);
+  @include box-sizing(border-box);
+  @include width(100%);
+
+  .container {
+    @include flex(space-between, center);
+    @include siteWidth($container-max-width, $container-margin);
+
+    .site-logo img {
+      max-width: 200px;
+      width: 80%;
+    }
+  }
+  nav.menu-mobile {
+    @include display(none);
+    text-align: end;
+
+    svg {
+      max-width: 200px;
+      width: 80%;
+    }
+  }
+}
+
+nav.menu-desktop {
+  @include flex(center, center);
+  position: relative; // Ensure positioning for dropdown menu
+
+  .navbar {
+    .nav-links {
+      list-style: none;
+      @include flex(space-between, center);
+
+      li {
+        position: relative;
+
+        a {
+          @include color($white-color);
+
+          @include padding($header-links-padding);
+          @include flex(center, center);
+          transition: background-color 0.3s;
+
+          &:hover {
+            @include background-color($primary-color);
+          }
+
+          .arrow {
+            margin-left: 5px;
+            // font-size: $icon-list-size-desktop; // Adjust as needed
+          }
+        }
+
+        .dropdown-menu {
+          @include display(none);
+          position: absolute;
+          top: 100%;
+          left: 0;
+          @include background-color($white-color);
+          @include border(1px, solid, $border-color);
+          @include box-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+          z-index: 1000;
+          @include width(200px);
+          @include padding(10px);
+          @include box-sizing(border-box);
+
+          li {
+            margin: 0;
+            list-style-type: none;
+            a {
+              @include color($heading-color);
+              @include padding(10px);
+              @include display(block);
+              transition: background-color 0.3s;
+
+              &:hover {
+                @include background-color($primary-color);
+                @include color($white-color);
+              }
+            }
+          }
+        }
+
+        &:hover .dropdown-menu {
+          @include display(block);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    @include padding($container-padding-tablet);
+
+    nav.menu-mobile {
+      @include display(block);
+    }
+    .menu-desktop {
+      @include display(none);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    @include padding($container-padding-mobile);
+  }
+}

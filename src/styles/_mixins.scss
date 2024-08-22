@@ -1,0 +1,59 @@
+// mixins.scss
+
+// Flexbox layout
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin siteWidth($max-width, $auto-margin){
+  max-width: $container-max-width;
+  margin: $container-margin;
+}
+// Background color
+@mixin background-color($color) {
+  background-color: $color;
+}
+
+// Padding
+@mixin padding($padding) {
+  padding: $padding;
+}
+
+// Box-shadow
+@mixin box-shadow($value) {
+  box-shadow: $value;
+}
+
+// Width
+@mixin width($value) {
+  width: $value;
+}
+//Height
+@mixin height($value) {
+  height: $value;
+}
+// Box-sizing
+@mixin box-sizing($value) {
+  box-sizing: $value;
+}
+
+// Border
+@mixin border($width, $style, $color) {
+  border: $width $style $color;
+}
+
+// Display
+@mixin display($value) {
+  display: $value;
+}
+
+// Color
+@mixin color($color) {
+  color: $color;
+}
+
+// Hide element
+@mixin hide {
+  display: none;
+}

@@ -1,0 +1,145 @@
+@import 'variables';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+// Font sizes for desktop
+h1 {
+  font-size: $h1-size-desktop;
+}
+
+h2 {
+  font-size: $h2-size-desktop;
+}
+
+h3 {
+  font-size: $h3-size-desktop;
+}
+
+h4 {
+  font-size: $h4-size-desktop;
+}
+
+h5 {
+  font-size: $h5-size-desktop;
+}
+
+h6 {
+  font-size: $h6-size-desktop;
+}
+
+a {
+  font-size: $btn-size-desktop;
+}
+
+p {
+  font-size: $para-size-desktop;
+}
+
+.icon-lg {
+  font-size: $icon-lg-size-desktop;
+}
+
+.icon-list {
+  font-size: $icon-list-size-desktop;
+}
+
+.error-text {
+  font-size: $error-text-size-desktop;
+}
+
+// Media queries for tablet
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: $h1-size-tablet;
+  }
+
+  h2 {
+    font-size: $h2-size-tablet;
+  }
+
+  h3 {
+    font-size: $h3-size-tablet;
+  }
+
+  h4 {
+    font-size: $h4-size-tablet;
+  }
+
+  h5 {
+    font-size: $h5-size-tablet;
+  }
+
+  h6 {
+    font-size: $h6-size-tablet;
+  }
+
+  a {
+    font-size: $btn-size-tablet;
+  }
+
+  p {
+    font-size: $para-size-tablet;
+  }
+
+  .icon-lg {
+    font-size: $icon-lg-size-tablet;
+  }
+
+  .icon-list {
+    font-size: $icon-list-size-tablet;
+  }
+
+  .error-text {
+    font-size: $error-text-size-tablet;
+  }
+}
+
+// Media queries for mobile
+@media (max-width: 767px) {
+  h1 {
+    font-size: $h1-size-mobile;
+  }
+
+  h2 {
+    font-size: $h2-size-mobile;
+  }
+
+  h3 {
+    font-size: $h3-size-mobile;
+  }
+
+  h4 {
+    font-size: $h4-size-mobile;
+  }
+
+  h5 {
+    font-size: $h5-size-mobile;
+  }
+
+  h6 {
+    font-size: $h6-size-mobile;
+  }
+
+  a {
+    font-size: $btn-size-mobile;
+  }
+
+  p {
+    font-size: $para-size-mobile;
+  }
+
+  .icon-lg {
+    font-size: $icon-lg-size-mobile;
+  }
+
+  .icon-list {
+    font-size: $icon-list-size-mobile;
+  }
+
+  .error-text {
+    font-size: $error-text-size-mobile;
+  }
+}

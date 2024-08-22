@@ -1,0 +1,383 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+a {
+  font-size: 15px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.icon-lg {
+  font-size: 45px;
+}
+
+.icon-list {
+  font-size: 20px;
+}
+
+.error-text {
+  font-size: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  a {
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .icon-lg {
+    font-size: 36px;
+  }
+  .icon-list {
+    font-size: 18px;
+  }
+  .error-text {
+    font-size: 80px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  a {
+    font-size: 13px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .icon-lg {
+    font-size: 30px;
+  }
+  .icon-list {
+    font-size: 16px;
+  }
+  .error-text {
+    font-size: 60px;
+  }
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-primary,
+.btn-secondary {
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  padding: 25px 40px;
+  background-color: #CE1212;
+  color: #FFF;
+}
+.btn-primary:hover {
+  background-color: #1B1717;
+}
+
+.btn-secondary {
+  padding: 25px 40px;
+  background-color: #1B1717;
+  color: #FFF;
+}
+.btn-secondary:hover {
+  background-color: #CE1212;
+}
+
+header {
+  background-color: #1B1717;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  width: 100%;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header .container .site-logo img {
+  max-width: 200px;
+  width: 80%;
+}
+header nav.menu-mobile {
+  display: none;
+  text-align: end;
+}
+header nav.menu-mobile svg {
+  max-width: 200px;
+  width: 80%;
+}
+
+nav.menu-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+nav.menu-desktop .navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.menu-desktop .navbar .nav-links li {
+  position: relative;
+}
+nav.menu-desktop .navbar .nav-links li a {
+  color: #FFF;
+  padding: 50px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+nav.menu-desktop .navbar .nav-links li a:hover {
+  background-color: #CE1212;
+}
+nav.menu-desktop .navbar .nav-links li a .arrow {
+  margin-left: 5px;
+}
+nav.menu-desktop .navbar .nav-links li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFF;
+  border: 1px solid #DADADA;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+nav.menu-desktop .navbar .nav-links li .dropdown-menu li {
+  margin: 0;
+  list-style-type: none;
+}
+nav.menu-desktop .navbar .nav-links li .dropdown-menu li a {
+  color: #1B1717;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s;
+}
+nav.menu-desktop .navbar .nav-links li .dropdown-menu li a:hover {
+  background-color: #CE1212;
+  color: #FFF;
+}
+nav.menu-desktop .navbar .nav-links li:hover .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px 30px;
+  }
+  header nav.menu-mobile {
+    display: block;
+  }
+  header .menu-desktop {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 20px 20px;
+  }
+}
+section.error-404 {
+  position: relative;
+}
+section.error-404 img {
+  width: 100%;
+}
+section.error-404::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: 999;
+}/*# sourceMappingURL=main.css.map */
