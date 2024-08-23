@@ -68,10 +68,6 @@ If you would like to contribute to this project, please follow these steps:
 
 ## License
 
-
-
-## License
-
 The design assets used in this project were obtained from Envato Elements, and the code was handwritten by the project owner. 
 The project is not open-source and is intended for personal or commercial use by the project owner. 
 Please respect the terms of use for the Envato Elements assets and the intellectual property rights of the project owner.
