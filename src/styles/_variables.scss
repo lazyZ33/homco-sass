@@ -37,11 +37,23 @@ $icon-lg-size-mobile: 30px;
 $icon-list-size-mobile: 16px;
 $error-text-size-mobile: 60px;
 
-//Colors
+//Font Weights
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900; 
 
+//Spacing
+$cta-footer-letter-spacing: 4.2px;
+
+//Colors
 $primary-color: #CE1212;
 $secondary-color: #1B1717;
-// $heading-color: #1B1717;
 $paragraph-color: #6E6E6E;
 $border-color: #DADADA;
 $white-color: #FFF;
@@ -49,12 +61,13 @@ $border-overlay-color: rgba(255, 255, 255, 0.25);
 $white-smoke-color: #F3F3F3;
 $rating-color: #FD5B00;
 
-//Container
-
+//Containers
 $container-max-width: 1440px;
 $container-margin: 0 auto;
+$cta-footer-max-width: 1340px;
+$our-clients-footer-max-width: 1112px;
 
-// Paddings
+// Paddings - Margins
 $container-padding-desktop: 0px 50px;
 $container-padding-tablet: 20px 30px;
 $container-padding-mobile: 20px 20px;

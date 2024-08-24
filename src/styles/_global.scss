@@ -1,38 +1,39 @@
-@import 'variables';
-@import 'typography';
-@import 'utilities';
-@import 'mixins';
+@import "variables";
+@import "typography";
+@import "utilities";
+@import "mixins";
 
-*{
+* {
   margin: 0px;
   padding: 0px;
-
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .btn-primary,
-.btn-secondary{
+.btn-secondary {
   transition: background-color 0.3s;
+  @include padding(25px 42px);
+  font-weight: $font-weight-semi-bold;
 }
 
-.btn-primary{
-  padding: 25px 40px;
+.btn-primary {
   background-color: $primary-color;
   color: $white-color;
-  &:hover{
-    background-color: $secondary-color;
+  &:hover {
+    background-color: $white-color;
+    color: $secondary-color;
   }
 }
 
-.btn-secondary{
-  padding: 25px 40px;
+.btn-secondary {
   background-color: $secondary-color;
   color: $white-color;
-  &:hover{
-    background-color: $primary-color;
+  &:hover {
+    background-color: $white-color;
+    color: $secondary-color;
   }
 }

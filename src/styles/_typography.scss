@@ -6,7 +6,8 @@ body {
 }
 
 // Font sizes for desktop
-h1 {
+h1,
+.cta-footer {
   font-size: $h1-size-desktop;
 }
 
@@ -52,7 +53,8 @@ p {
 
 // Media queries for tablet
 @media (min-width: 768px) and (max-width: 991px) {
-  h1 {
+  h1,
+  .cta-footer {
     font-size: $h1-size-tablet;
   }
 
@@ -99,7 +101,8 @@ p {
 
 // Media queries for mobile
 @media (max-width: 767px) {
-  h1 {
+  h1,
+  .cta-footer {
     font-size: $h1-size-mobile;
   }
 

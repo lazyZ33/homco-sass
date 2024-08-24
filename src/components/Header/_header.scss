@@ -9,7 +9,7 @@ header {
 
   .container {
     @include flex(space-between, center);
-    @include siteWidth($container-max-width, $container-margin);
+    @include siteWidth();
 
     .site-logo img {
       max-width: 200px;
@@ -50,10 +50,10 @@ nav.menu-desktop {
             @include background-color($primary-color);
           }
 
-          .arrow {
-            margin-left: 5px;
-            // font-size: $icon-list-size-desktop; // Adjust as needed
-          }
+          // .arrow {
+          //   @include margin (0px 0px 0px 5px);
+          //   // font-size: $icon-list-size-desktop; // Adjust as needed
+          // }
         }
 
         .dropdown-menu {
@@ -70,7 +70,6 @@ nav.menu-desktop {
           @include box-sizing(border-box);
 
           li {
-            margin: 0;
             list-style-type: none;
             a {
               @include color($secondary-color);

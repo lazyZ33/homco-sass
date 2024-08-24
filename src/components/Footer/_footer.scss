@@ -1,0 +1,36 @@
+footer{
+    margin: $container-margin;
+    background-color: $secondary-color;
+    
+    .cta-footer{
+        position:relative;
+        top: -100px;
+        @include background-color($primary-color);
+        @include flex(center, flex-start);
+        @include padding(103px 114px);
+        flex-direction: column;
+        max-width: $cta-footer-max-width;
+        margin: $container-margin;
+
+        .our-clients-footer{
+            position: absolute;
+            left: 50%;
+            top: -100px;
+            transform: translateX(-50%);
+            max-width: $our-clients-footer-max-width;
+            @include background-color($white-color);
+            margin: $container-margin;
+    
+            .client-logo{
+                @include grid( 4, 30px);
+                @include padding(30px 114px);        
+            }
+        }
+
+        span.content{
+            font-weight: $font-weight-black;
+            color: $white-color;
+            letter-spacing: $cta-footer-letter-spacing;
+        }
+    }
+}

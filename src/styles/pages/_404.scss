@@ -18,6 +18,15 @@ section.error-404 {
 
   .content {
     position: absolute;
+    @include padding(20px);
+    
+    h1,
+    h4{
+      @include color($white-color);
+    }
+    h4 {
+      @include margin(30px 0px);
+    }
   }
 
   .btn-primary {
