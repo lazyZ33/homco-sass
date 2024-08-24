@@ -328,8 +328,7 @@ nav.menu-desktop .navbar .nav-links li .dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #FFF;
-  border: 1px solid #DADADA;
+  background-color: #1B1717;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   width: 200px;
@@ -340,7 +339,7 @@ nav.menu-desktop .navbar .nav-links li .dropdown-menu li {
   list-style-type: none;
 }
 nav.menu-desktop .navbar .nav-links li .dropdown-menu li a {
-  color: #1B1717;
+  color: #FFF;
   padding: 10px;
   display: block;
   transition: background-color 0.3s;

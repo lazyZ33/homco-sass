@@ -61,8 +61,7 @@ nav.menu-desktop {
           position: absolute;
           top: 100%;
           left: 0;
-          @include background-color($white-color);
-          @include border(1px, solid, $border-color);
+          @include background-color($secondary-color);
           @include box-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
           z-index: 1000;
           @include width(200px);
@@ -72,7 +71,7 @@ nav.menu-desktop {
           li {
             list-style-type: none;
             a {
-              @include color($secondary-color);
+              @include color($white-color);
               @include padding(10px);
               @include display(block);
               transition: background-color 0.3s;
