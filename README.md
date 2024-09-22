@@ -45,10 +45,6 @@ Homco - Home Interior Web Design includes the following pages:
 4. Start the development server by right-clicking on the `index.html` file and selecting "Open with Live Server".
 5. The website should now be accessible in your web browser at `http://localhost:5500`.
 
-## Project Structure
-
-The project structure is as follows:
-
 ## Deployment
 
 To deploy the website, you can either:
